@@ -19,7 +19,6 @@ The project is built using AWS SageMaker for model development, AWS Lambda for b
   - [Getting Started](#getting-started)
   - [Testing](#testing)
   - [Future Enhancements](#future-enhancements)
-  - [License](#license)
 
 ## Project Motivation
 
@@ -100,7 +99,3 @@ To get started with this project, follow the instructions below:
 - **Model Monitoring**: Implement AWS CloudWatch metrics and alarms to monitor the model's performance and detect drift.
 - **Additional Classification Tasks**: Expand the model to classify more vehicle types (e.g., cars, trucks).
 - **Performance Optimization**: Experiment with different model architectures and hyperparameters to improve classification accuracy.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
