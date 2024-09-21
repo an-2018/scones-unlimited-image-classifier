@@ -7,7 +7,8 @@ THRESHOLD = .93
 def lambda_handler(event, context):
     
     # Grab the inferences from the event
-    inferences = event['body']['inferences']
+    body = json.loads(event['body'])
+    inferences = body['inferences']
     inferences_cleaned = inferences.strip('[]')
     
     inferences_list = [float(i) for i in inferences_cleaned.split(',')]
